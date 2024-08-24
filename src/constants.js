@@ -1,5 +1,6 @@
 
 import image1 from './assets/TeamArcs-Logo.jpeg'
+import image2 from './assets/ElixirEdge Logo.jpeg'
 export const services = [
     {
         title: "Technology Enthusiast",
@@ -22,7 +23,7 @@ export const experiences = [
         'company': 'ElixirEdge IT Solutions',
         'role': 'Full Stack Web Developer',
         'duration': 'September 2024 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'logo': image2,
         'points': [
             'Involved in a full-stack web application using [React.js, Next.js , Sql,MongoDB, etc.] for customer relationship management at ElixirEdge IT Solutions, Noida.',
             'The project involved in the hospitality and travel industry, I worked on integrating technology, market intelligence, and revenuemanagement to optimize connectivity and distribution strategies by designing and implementing user interfaces, building RESTful APIs, and managing data storage.⚙️.'
