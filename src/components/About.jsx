@@ -38,7 +38,7 @@ const About = () => {
               On a different note, I'm also into Sports and Fun💪. It's not just a hobby; I see it as a way to discipline myself🔱, healthy lifestyle.</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1SurE6oZTK-fdxNrl_f1Jzi6TwMh-WiMH/view?usp=sharing'
+              url='https://drive.google.com/file/d/1eaRt3Yr4J24YfUPuw2CZq54TN1Xqemr7/view?usp=sharing'
               text='View Resume →'
               padding={`p-3`}
             />

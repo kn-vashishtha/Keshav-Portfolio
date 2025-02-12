@@ -1,17 +1,17 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
+import EcoEats from '../assets/EcoEats.png'
+import CreditCardFraudDetection from '../assets/CreditCardFraudDetection.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='Snap Shot' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
+            {title=='EcoEats' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={EcoEats} alt="" />
             </a>}
-            {title=='Co People' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+            {title=='Credit Card Fraud Detection' &&  <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={CreditCardFraudDetection} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -60,18 +60,18 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
-        image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
+        title:'EcoEats',
+        description:'EcoEats is an AI-driven zero-waste cooking platform built with OpenAI, React, and Django. It generates recipes based on available ingredients, helping users minimize food waste. The platform features an interactive UI and seamless AI integration for an optimized cooking experience.',
+        image: {EcoEats},
+        git:'https://github.com/kn-vashishtha/EcoEats',
+        technologies:['ReactsJS' ,'ShadCN/UI' , 'openAI']
     },
     {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
-        image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        title:'Credit Card Fraud Detection',
+        description:'The Credit Card Fraud Detection model uses ML algorithms to identify fraudulent transactions with high accuracy, leveraging data preprocessing and feature engineering for improved precision.',
+        image: {CreditCardFraudDetection},
+        git:"https://github.com/kn-vashishtha",
+        technologies:[ 'Python', 'Machine Learning']
     }
 ]
 
